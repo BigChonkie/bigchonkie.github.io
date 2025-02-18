@@ -1,0 +1,99 @@
+<html>
+<head> 
+    <title> Form </title> 
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+</head> 
+<style>
+    nav{
+    font-size:44px;
+    }
+    p {
+    line-height: 1.5;
+}    
+    
+</style>
+<body>
+    <nav style='background-color:yellow; text-align:center; font-weight:bold;'>
+        <a href=' p1_aboutme.html'> About me </a> &nbsp &nbsp &nbsp
+        <a href=' p2_hobby.html'> Hobbies </a> &nbsp &nbsp &nbsp
+        <a href=' p3_portfolio.html'> Portfolio </a> &nbsp &nbsp &nbsp
+        <a href=' p4_myfavorites.html'> Favorites</a> &nbsp &nbsp &nbsp
+        <a href=' p5_form.html'> Form </a> &nbsp &nbsp &nbsp
+    </nav>
+
+<h1 style='text-align:center;'> My Contact Form </h1> 
+<h2 style='text-align:center;'> This is a way to contact me </h2>
+
+    <form>
+        <label> First Name: <input type='text'> </label> <br> <br>
+        <label> Last Name: <input type='text'> </label> <br> <br>
+        
+        <p> <b> Best Way of Contact </b> </p> <br>
+        
+        <label> What do you prefer? </label> &nbsp &nbsp &nbsp
+        
+        <select> 
+                <option> Phone Call </option>
+                <option> Video Call </option> 
+                <option> Email </option>
+                <option> SMS </option> 
+                <option> In Person </option>
+        </select>
+        
+    <br> <br> <br>
+        
+    <!-- Radio Type Menu -->
+        <fieldset> 
+            <legend> Which office is closest to you? (choose one) </legend>
+                <input type='radio'>
+                    <label> Chicago - Northside </label> <br>
+                <input type='radio'> 
+                    <label> Chicago - southside </label> <br>
+                <input type='radio'> 
+                    <label> Chicago - westside </label> <br>
+                <input type='radio'> 
+                    <label> Chicago - downtown </label>
+            
+            
+        </fieldset>
+            
+            <label> date of visit: </label>
+                <input type='date'> <br> <br>             
+            
+            
+            <label> time of appointment: </label>
+                <input type='time'> <br> <br> 
+
+            <label> attach your business plan/resume:</label>
+            <br> <br>    <input type='file'> <br> <br> 
+            
+            <label> attach your business card:</label>
+            <br> <br>    <input type='file'> <br> <br> 
+            
+            <label> How long do you want to meet for?</label>
+                <input type='number' min='1' max= '45'> Minutes <br> <br>
+                
+            <label> Select your favorite color:</label>
+                <input type='color'> <br> <br>
+                
+            <label> Enter your mail address:</label>
+                <input type='email' placeholder='johnsmith@gmail.com'> <br> <br>
+                
+            <label> Enter your contact number:</label>
+                <input type='tel' placeholder='123.123.1234' pattern='[0-9] {3}. [0-9] {4}' required> <br> <br> &nbsp &nbsp &nbsp
+                
+            <select>
+                <option> Cell </option>
+                <option> Home </option>
+                <option> Work </option>
+            </select> <br><br>
+            
+        <input type='submit' value='submit'>&nbsp &nbsp &nbsp
+        <input type='reset' value='reset'>
+                
+        </form>
+</body>
+</html>
